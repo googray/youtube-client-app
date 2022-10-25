@@ -1,0 +1,26 @@
+.header-title__container {
+  height: 180px;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px 0;
+
+  .input-group.col-xs-4 {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .btn-play {
+    color: antiquewhite;
+  }
+}
+.header__search-block {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.btn-outline-secondary {
+  height: 100%;
+}
