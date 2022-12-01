@@ -9,7 +9,17 @@ import { IArtist } from 'src/app/shared/interface';
 export default class DrollComponent implements OnInit {
   @Input() artist: IArtist = {};
 
-  constructor() {}
+  // @Output()
+  // public isShown = true;
+
+  constructor() {
+    console.log('22: ', this.artist);
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  getMoreInfo(): void {
+    console.log('click2');
+  }
 
   // eslint-disable-next-line class-methods-use-this
   ngOnInit(): void {}

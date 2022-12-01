@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 import { IArtist } from '../shared/interface';
 import DrollsService from './drolls.service';
 
@@ -10,6 +10,9 @@ import DrollsService from './drolls.service';
 })
 export default class DrollsComponent implements OnInit {
   public artists: IArtist[] = [];
+
+  @Output()
+  public isShown = true;
 
   constructor(private drollsService: DrollsService) {}
 

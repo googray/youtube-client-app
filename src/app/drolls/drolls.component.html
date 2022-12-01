@@ -1,5 +1,7 @@
-<ul class="drolls-list__container">
-  <li class="drolls-card__item" *ngFor="let art of artists">
-    <app-droll [artist]="art"></app-droll>
-  </li>
-</ul>
+<div class="drolls-block__container" *ngIf="isShown">
+  <ul class="drolls-container">
+    <li class="drolls-card__item" *ngFor="let art of artists">
+      <app-droll [artist]="art"></app-droll>
+    </li>
+  </ul>
+</div>

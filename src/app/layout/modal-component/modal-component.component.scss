@@ -1,0 +1,45 @@
+.modal-card__container {
+  width: 80vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e5e5e5;
+  margin: 0 auto;
+}
+
+.modal-card__datainfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal-card__rating-block {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  // justify-content: space-around;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+
+  .bi-eye,
+  .bi-heart-fill,
+  .bi-heartbreak-fill,
+  .bi-union {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+  }
+}
+.bi-emoji-heart-eyes {
+  width: 223px;
+  height: 123px;
+  background-color: aqua;
+}
+
+.test-pict {
+  width: 400px;
+  height: 400px;
+}

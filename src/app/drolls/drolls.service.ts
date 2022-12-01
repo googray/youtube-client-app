@@ -1,20 +1,20 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
-// import { IArtist } from '../shared/interface';
+import { IArtist } from '../shared/interface';
 
 @Injectable({
   providedIn: 'root',
 })
 export default class DrollsService {
-  // public artists: IArtist[] = [
-  //   { id: '21' },
-  //   { id: '22' },
-  //   { id: '23' },
-  //   { id: '24' },
-  //   { id: '25' },
-  //   { id: '26' },
-  // ];
+  public artists: IArtist[] = [
+    { id: '21' },
+    { id: '22' },
+    { id: '23' },
+    { id: '24' },
+    { id: '25' },
+    { id: '26' },
+  ];
   // public artists: {} = {};
 
   // eslint-disable-next-line operator-linebreak
